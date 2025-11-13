@@ -1,0 +1,15 @@
+name: nflproj
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - scikit-learn
+  - matplotlib
+  - jupyterlab
+  - xgboost
+  - pip
+  - pip:
+      - nfl_data_py
+prefix: /opt/anaconda3/envs/nflproj
