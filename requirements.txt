@@ -5,3 +5,4 @@ matplotlib
 xgboost
 jupyterlab
 nfl_data_py
+duckdb
