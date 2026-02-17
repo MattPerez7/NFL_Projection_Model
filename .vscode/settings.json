@@ -1,0 +1,18 @@
+{
+    "workbench.editorAssociations": {
+        "*.copilotmd": "vscode.markdown.preview.editor",
+        "*.parquet": "duckdb.dataFileViewer",
+        "*.csv": "duckdb.dataFileViewer",
+        "*.tsv": "duckdb.dataFileViewer"
+    },
+    "duckdb.defaultDatabase": "nfl_analytics",
+    "duckdb.databases": [
+        {
+            "alias": "nfl_analytics",
+            "type": "file",
+            "path": "/Users/matthewperez/Desktop/nfl-projection-model/data/processed/nfl_analytics.db",
+            "readOnly": true,
+            "attached": true
+        }
+    ]
+}
